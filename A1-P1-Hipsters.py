@@ -19,7 +19,6 @@ def main():
 
     #input for cost of records (assuming no need for number of records, just their cost) 
     recordCost=input("Enter the cost of records purchased: " ) 
-    print(" ") #I know theres an easier way to do this but with an input I'm not sure what it is 
 
     #Math time - had to remember to use floats 
     deliveryCost=float(distance)*15
@@ -28,7 +27,7 @@ def main():
 
 
     #output message for summary
-    print("Purchase summary for",cxName)
+    print("\nPurchase summary for",cxName)
     print("Delivery Cost: ${0:.2f}".format(deliveryCost))
     print("Purchase Cost: ${0:.2f}".format(purchaseCost))
     print("Total Cost   : ${0:.2f}".format(totalCost))
